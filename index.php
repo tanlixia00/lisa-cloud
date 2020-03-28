@@ -19,7 +19,7 @@ require_once("function.php");
         </tr>
 
         <?php 
-        $sql = "SELECT * FROM mahasiswa";
+        $sql = "SELECT * FROM Mahasiswa";
         $result = $conn->query($sql);
         if ($result->num_rows > 0) {
     
