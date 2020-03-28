@@ -29,7 +29,7 @@ require_once("function.php");
             while ($obj = $result->fetch_assoc()) {
                 echo '<tr>';
                 echo '<td>' . $obj['nrp'] . '</td>';
-                echo '<td>' . $obj['nama'] . '</td>';
+                echo '<td>' . $obj['name'] . '</td>';
                 echo '<td>' . $obj['jurusan'] . '</td>';
             }
         } else {
